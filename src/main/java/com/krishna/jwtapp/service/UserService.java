@@ -26,7 +26,7 @@ public class UserService {
         for(int i=0;i < 10; i++){
             UserVO userVO = new UserVO();
             userVO.setName("user"+i);
-            userVO.setEmail("email"+i+".gmail.com");
+            userVO.setEmail("email"+i+".mail.com");
             userVO.setAge(20l+i);
             list.add(userVO);
         }
